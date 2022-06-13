@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #0E2542;
+    color: var(--white);
+    padding-bottom: 2rem;
+}
+
+.footer-inner{
+    margin-top: -3rem;
+}
+
+.f-links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

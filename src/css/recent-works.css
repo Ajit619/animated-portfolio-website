@@ -1,0 +1,45 @@
+.works{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+  }
+  
+  .swiper-wrapper{
+      margin-top: 3rem;
+      overflow: visible !important;
+  }
+  
+  .swiper-slide{
+      width: 20rem;
+      background-color: skyblue;
+      border-radius: 1.5rem;
+      box-shadow: var(--boxShadow);
+  }
+  
+  .swiper-slide img{
+      width: 100%;
+      border-radius: 1.5rem;
+      box-shadow: var(--boxShadow);
+  }
+  
+  .works .heading{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .works .heading span:nth-child(1){
+      font-size: 3.1rem;
+      font-weight: bold;
+      color: var(--purple);
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 2px;
+  }
+  
+  .works .heading span:nth-child(2){
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--orange);
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1px;
+  }
+  
